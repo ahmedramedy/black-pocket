@@ -31,14 +31,7 @@ overflow: "hidden",
   "radial-gradient(circle at top right, rgba(57,255,20,0.08), transparent 35%)",
       }}
       >
-   <div
-  style={{
-    width: "100%",
-    maxWidth: "1200px",
-    padding: "0 20px",
-    boxSizing: "border-box",
-  }}
->
+  <div className="hero-content">
      <h1 style={{ fontSize: "clamp(30px, 6vw, 60px)", marginBottom: "10px" }}>
 WELCOME TO      </h1>
  <h2
@@ -73,26 +66,9 @@ marginBottom: "10px",
   عند الانضمام ستحصل على:
 </h2>
 
-<div
-  style={{
-    display: "flex",
-    gap: "20px",
-    flexWrap: "wrap",
-    justifyContent: "center",
-    marginTop: "30px",
-  }}
->
+<div className="features">
 
-  <div
-  className="card"
-  style={{
-width: "100%",
-maxWidth: "260px",
-background: "rgba(255,255,255,0.05)",    border: "1px solid #39ff14",
-    boxShadow: "0 0 15px rgba(57, 255, 20, 0.25)",
-    borderRadius: "15px",
-    padding: "20px"
-  }}>
+  <div className="feature-card">
 <h3
   style={{
     color: "#39ff14",
@@ -221,16 +197,13 @@ className="join-btn"
   style={{
     display: "inline-block",
 width: "100%",
-maxWidth: "380px",
 marginTop: "20px",
    background: "linear-gradient(90deg, #39ff14, #00c853)",
     color: "black",
-padding: "50px 60px",
     borderRadius: "15px",
 border: "2px solid #39ff14",
     textDecoration: "none",
-    fontSize: "32px",
-    fontWeight: "bold",
+       fontWeight: "bold",
   }}
 >
   اضغط هنا للانضمام

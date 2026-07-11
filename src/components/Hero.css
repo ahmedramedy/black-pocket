@@ -109,3 +109,60 @@ a:hover {
 .hero-container {
   animation: glowBackground 6s ease-in-out infinite;
 }
+.hero-content {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: auto;
+  box-sizing: border-box;
+}
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.feature-card {
+  width: 230px;
+  padding: 20px;
+  border-radius: 15px;
+  border: 1px solid #39ff14;
+  background: linear-gradient(180deg, #111, #1b1b1b);
+  box-shadow: 0 0 15px rgba(57,255,20,.25);
+  backdrop-filter: blur(10px);
+}
+@media (max-width: 768px) {
+
+  .hero-content {
+    padding: 0 15px;
+  }
+
+  .features {
+    gap: 15px;
+  }
+
+  .feature-card {
+    width: 100%;
+    max-width: 340px;
+  }
+
+  .join-btn {
+    width: 100%;
+    max-width: 340px;
+    min-width: auto !important;
+    padding: 18px 25px !important;
+    font-size: 24px !important;
+    box-sizing: border-box;
+  }
+
+  .hero-content h1 {
+    font-size: 36px !important;
+  }
+
+  .hero-content h2:first-of-type {
+    font-size: 48px !important;
+    letter-spacing: 3px !important;
+  }
+}
