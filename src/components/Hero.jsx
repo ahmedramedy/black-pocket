@@ -66,6 +66,27 @@ marginBottom: "10px",
   BLACK POCKET
 
 </h2>
+<a
+  className="join-btn"
+  href="https://t.me/+T91wy78DjgBiMjI0"
+  target="_blank"
+  rel="noreferrer"
+  style={{
+    display: "inline-block",
+    marginTop: "30px",
+    marginBottom: "40px",
+    background: "linear-gradient(90deg, #39ff14, #00c853)",
+    color: "black",
+    padding: "20px 50px",
+    borderRadius: "15px",
+    border: "2px solid #39ff14",
+    textDecoration: "none",
+    fontSize: "28px",
+    fontWeight: "bold",
+  }}
+>
+  اضغط هنا للانضمام
+</a>
 <h2
   style={{
     marginTop: "40px",
@@ -75,6 +96,7 @@ marginBottom: "10px",
     fontWeight: "bold",
   }}
 >
+
   عند الانضمام ستحصل على:
 </h2>
 
