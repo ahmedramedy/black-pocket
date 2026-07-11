@@ -32,15 +32,24 @@ overflow: "hidden",
       }}
       >
   <div className="hero-content">
-     <h1 style={{ fontSize: "clamp(30px, 6vw, 60px)", marginBottom: "10px" }}>
-WELCOME TO      </h1>
+     <h1
+  style={{
+    fontSize: "60px",
+    marginBottom: "10px",
+    color: "#FFD700",
+    textShadow: "0 0 15px #FFD700",
+    fontWeight: "bold",
+  }}
+>
+  WELCOME TO
+</h1>
  <h2
 
   style={{
 
 fontSize: "clamp(42px, 8vw, 70px)",
 
-    color: "#39ff14",
+    color: "#c0ff14",
 
 marginBottom: "10px",
 
