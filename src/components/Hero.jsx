@@ -70,6 +70,9 @@ marginBottom: "10px",
   style={{
     marginTop: "40px",
     fontSize: "36px",
+    color: "#00BFFF",
+    textShadow: "0 0 10px #00BFFF",
+    fontWeight: "bold",
   }}
 >
   عند الانضمام ستحصل على:
