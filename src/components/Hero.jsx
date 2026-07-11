@@ -31,15 +31,21 @@ overflow: "hidden",
   "radial-gradient(circle at top right, rgba(57,255,20,0.08), transparent 35%)",
       }}
       >
-   
-    <div style={{ width: "50%" }}>
-     <h1 style={{ fontSize: "60px", marginBottom: "10px" }}>
+   <div
+  style={{
+    width: "100%",
+    maxWidth: "1200px",
+    padding: "0 20px",
+    boxSizing: "border-box",
+  }}
+>
+     <h1 style={{ fontSize: "clamp(30px, 6vw, 60px)", marginBottom: "10px" }}>
 WELCOME TO      </h1>
  <h2
 
   style={{
 
-    fontSize: "70px",
+fontSize: "clamp(42px, 8vw, 70px)",
 
     color: "#39ff14",
 
@@ -80,7 +86,8 @@ marginBottom: "10px",
   <div
   className="card"
   style={{
-    width: "230px",
+width: "100%",
+maxWidth: "260px",
 background: "rgba(255,255,255,0.05)",    border: "1px solid #39ff14",
     boxShadow: "0 0 15px rgba(57, 255, 20, 0.25)",
     borderRadius: "15px",
@@ -103,7 +110,8 @@ background: "rgba(255,255,255,0.05)",    border: "1px solid #39ff14",
   <div 
   className="card"
   style={{
-    width: "230px",
+width: "100%",
+maxWidth: "260px",
 background: "rgba(255,255,255,0.05)",    border: "1px solid #39ff14",
     boxShadow: "0 0 15px rgba(57, 255, 20, 0.25)",
     borderRadius: "15px",
@@ -126,7 +134,8 @@ background: "rgba(255,255,255,0.05)",    border: "1px solid #39ff14",
 
   <div 
   className="card"style={{
-    width: "230px",
+width: "100%",
+maxWidth: "260px",
 background: "linear-gradient(180deg, #111, #1b1b1b)",
     border: "1px solid #39ff14",
     boxShadow: "0 0 15px rgba(57, 255, 20, 0.25)",
@@ -150,7 +159,8 @@ background: "linear-gradient(180deg, #111, #1b1b1b)",
 
   <div 
   className="card"style={{
-    width: "230px",
+width: "100%",
+maxWidth: "260px",
    background: "linear-gradient(180deg, #111, #1b1b1b)",
     border: "1px solid #39ff14",
     boxShadow: "0 0 15px rgba(57, 255, 20, 0.25)",
@@ -210,7 +220,8 @@ className="join-btn"
   rel="noreferrer"
   style={{
     display: "inline-block",
-minWidth: "380px",
+width: "100%",
+maxWidth: "380px",
 marginTop: "20px",
    background: "linear-gradient(90deg, #39ff14, #00c853)",
     color: "black",
