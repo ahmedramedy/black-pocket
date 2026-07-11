@@ -97,7 +97,7 @@ marginBottom: "10px",
   }}
 >
 
-  عند الانضمام ستحصل على:
+  عند الانضمام ستحصل على
 </h2>
 
 <div className="features">

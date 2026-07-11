@@ -14,7 +14,7 @@ function About() {
           marginBottom: "20px",
         }}
       >
-     لماذا تنضم إلى BLACK POCKET؟
+     لماذا تنضم إلى BLACK POCKET
       </h2>
 
       <p
