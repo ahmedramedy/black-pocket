@@ -194,15 +194,16 @@ a:hover {
 
   .features {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 1.35fr;
     gap: 15px;
     width: 100%;
+    align-items: stretch;
   }
 
   .feature-card {
     width: 100%;
-    max-width: none;
     padding: 15px;
+    box-sizing: border-box;
   }
 
   .feature-card h3 {
@@ -211,9 +212,8 @@ a:hover {
 
   .feature-card p {
     font-size: 14px;
+    line-height: 1.5;
   }
 
 }
-.feature-right{
-    width: 250px;
-}
+
