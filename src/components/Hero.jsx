@@ -71,6 +71,7 @@ marginBottom: "10px",
   href="https://t.me/+T91wy78DjgBiMjI0"
   target="_blank"
   rel="noreferrer"
+onClick={() => window.fbq && window.fbq('track', 'Lead')}
   style={{
     display: "inline-block",
     marginTop: "30px",
