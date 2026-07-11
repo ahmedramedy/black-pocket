@@ -83,16 +83,7 @@ marginBottom: "10px",
 </h3>    <p>هتحصل على كورس شامل مجانًا.</p>
   </div>
 
-  <div 
-  className="card"
-  style={{
-width: "100%",
-maxWidth: "260px",
-background: "rgba(255,255,255,0.05)",    border: "1px solid #39ff14",
-    boxShadow: "0 0 15px rgba(57, 255, 20, 0.25)",
-    borderRadius: "15px",
-    padding: "20px"
-  }}>
+ <div className="feature-card">
   <h3
   style={{
     color: "#39ff14",
@@ -108,16 +99,7 @@ background: "rgba(255,255,255,0.05)",    border: "1px solid #39ff14",
     <p>ملف احترافي لإدارة رأس المال.</p>
   </div>
 
-  <div 
-  className="card"style={{
-width: "100%",
-maxWidth: "260px",
-background: "linear-gradient(180deg, #111, #1b1b1b)",
-    border: "1px solid #39ff14",
-    boxShadow: "0 0 15px rgba(57, 255, 20, 0.25)",
-    borderRadius: "15px",
-    padding: "20px"
-  }}>
+  <div className="feature-card">
    <h3
   style={{
     color: "#39ff14",
@@ -133,16 +115,7 @@ background: "linear-gradient(180deg, #111, #1b1b1b)",
     <p>انديكيتور تحليلي مجاني.</p>
   </div>
 
-  <div 
-  className="card"style={{
-width: "100%",
-maxWidth: "260px",
-   background: "linear-gradient(180deg, #111, #1b1b1b)",
-    border: "1px solid #39ff14",
-    boxShadow: "0 0 15px rgba(57, 255, 20, 0.25)",
-    borderRadius: "15px",
-    padding: "20px"
-  }}>
+ <div className="feature-card">
 <h3
   style={{
     color: "#39ff14",
@@ -159,17 +132,7 @@ maxWidth: "260px",
 
 </div>
       
-    <div
-  style={{
-marginTop: "20px",
-    backgroundColor: "#111",
-    border: "1px solid #39ff14",
-    borderRadius: "15px",
-    padding: "25px",
-    width: "90%",
-    maxWidth: "900px",
-  }}
->
+   <div className="feature-card">
   <h2
     style={{
       color: "white",
