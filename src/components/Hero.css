@@ -175,7 +175,14 @@ a:hover {
 }
 
 .feature-card {
-  width: 230px;
+  width: 220px;
+  height: 220px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
   background: linear-gradient(180deg, #111, #1b1b1b);
   border: 1px solid #39ff14;
   border-radius: 15px;
@@ -183,6 +190,7 @@ a:hover {
   box-shadow: 0 0 15px rgba(57, 255, 20, 0.25);
   transition: 0.3s;
   box-sizing: border-box;
+  text-align: center;
 }
 
 .feature-card:hover {
@@ -200,10 +208,10 @@ a:hover {
   }
 
   .feature-card {
-    width: 100%;
-    max-width: none;
-    padding: 15px;
-  }
+  width: 170px;
+  height: 170px;
+  padding: 15px;
+}
 
   .feature-card h3 {
     font-size: 18px;
