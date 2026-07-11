@@ -98,8 +98,8 @@ marginBottom: "10px",
 </h3>
     <p>ملف احترافي لإدارة رأس المال.</p>
   </div>
-<div className="feature-card feature-card-wide">
-   <h3
+<div className="feature-card feature-right">
+     <h3
   style={{
     color: "#39ff14",
     display: "flex",
@@ -131,8 +131,8 @@ marginBottom: "10px",
 
 </div>
       
-   <div className="feature-card">
-  <h2
+<div className="feature-card feature-right">
+    <h2
     style={{
       color: "white",
       marginBottom: "15px",
