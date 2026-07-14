@@ -68,7 +68,7 @@ marginBottom: "10px",
 </h2>
 <a
   className="join-btn"
-  href="https://t.me/+T91wy78DjgBiMjI0"
+href="https://telegram.me/+m6QxNMJczA80YjNk"
   target="_blank"
   rel="noreferrer"
   style={{
@@ -187,7 +187,7 @@ marginBottom: "10px",
 
 <a
 className="join-btn"
-  href="https://t.me/+T91wy78DjgBiMjI0"
+  href="https://telegram.me/+m6QxNMJczA80YjNk"
   target="_blank"
   rel="noreferrer"
   style={{
