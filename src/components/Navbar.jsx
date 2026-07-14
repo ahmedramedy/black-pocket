@@ -23,7 +23,7 @@ function Navbar() {
 </h2>
 
       <a
-        href="https://t.me/+T91wy78DjgBiMjI0"
+href="https://t.me/+m6QxNMJczA80YjNk"
         target="_blank"
         rel="noreferrer"
         style={{
